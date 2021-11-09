@@ -1,0 +1,13 @@
+name: TeleportBow
+version: '${project.version}'
+main: me.zhichgaming.tpbowplugin.TPBowPlugin
+api-version: 1.8.8
+authors: [ ZhichGaming ]
+description: A plugin that allows you to teleport by shooting a bow.
+commands:
+  tpbow:
+    description: Spawns a bow that will teleport you where the arrow will land.
+    usage: /<command>
+    aliases:
+      - teleportbow
+      - bow

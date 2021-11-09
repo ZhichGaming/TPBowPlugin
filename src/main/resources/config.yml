@@ -1,0 +1,23 @@
+# TeleportBow 1.0
+# Plugin made by ZhichGaming
+#
+# Use '&' for color codes.
+# Leave quotes empty if you do not want any message/lore displayed.
+
+# The name of the teleport bow. Default is '[TeleportBow]'.
+bowName: '&f[&eTeleport Bow&f]'
+
+# The description of the teleport bow.
+description:
+  - '&3This bow teleports you where the arrow lands.'
+  - '&3Right click to shoot.'
+
+# Message displayed after you have shot the bow and been teleported.
+# %location% is the coords that you are at after you have teleported.
+teleportMessage: 'You have been teleported to: %location%'
+
+# If joining the server give you a tpbow(Only gives bow to users with permission tpbow.join).
+giveBowOnJoin: false
+
+# The message displayed when you give others a TPBow.
+giveMessage: '%player% now has a teleport bow!'
